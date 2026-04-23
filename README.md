@@ -45,7 +45,7 @@ claude --version
 ### 2. Install
 
 ```bash
-git clone https://github.com/YOUR_GITHUB/clawdee-telegram-gateway.git
+git clone https://github.com/yalishendaa/clawdee-telegram-gateway.git
 cd clawdee-telegram-gateway
 pip install -r requirements.txt
 ```
@@ -640,7 +640,7 @@ Gateway (every message) -> HOT (recent.md)
 
 Order matters: rotate-warm first (clear old), then trim-hot (add new to WARM), then compress-warm (re-compress if needed).
 
-Ready-to-use scripts: [public-architecture-claude-code/scripts/](https://github.com/YOUR_GITHUB/public-architecture-claude-code/tree/main/scripts)
+Ready-to-use scripts: [public-architecture-claude-code/scripts/](https://github.com/yalishendaa/public-architecture-claude-code/tree/main/scripts)
 
 ### How Sonnet compression works
 
@@ -791,9 +791,9 @@ Three components form the complete system:
 
 | Component | Purpose | Repo |
 |-----------|---------|------|
-| **CLAWDEE Telegram Gateway** | Autonomous agent via Telegram (voice, media, sessions, memory) | [this repo](https://github.com/YOUR_GITHUB/clawdee-telegram-gateway) |
+| **CLAWDEE Telegram Gateway** | Autonomous agent via Telegram (voice, media, sessions, memory) | [this repo](https://github.com/yalishendaa/clawdee-telegram-gateway) |
 | **claude-code-telegram** | Interactive Claude Code via Telegram (standard CLI over chat) | [RichardAtCT/claude-code-telegram](https://github.com/RichardAtCT/claude-code-telegram) |
-| **Architecture docs** | Memory system, compression, hooks, skills, subagents | [public-architecture-claude-code](https://github.com/YOUR_GITHUB/public-architecture-claude-code) |
+| **Architecture docs** | Memory system, compression, hooks, skills, subagents | [public-architecture-claude-code](https://github.com/yalishendaa/public-architecture-claude-code) |
 | **OpenViking** | Semantic memory extraction and search | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) |
 
 ## Agent Workspace Structure
