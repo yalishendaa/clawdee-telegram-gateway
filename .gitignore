@@ -1,0 +1,39 @@
+# Secrets
+config.json
+*.key
+*.env
+*.pem
+secrets/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Gateway state
+state/
+media-inbound/
+gateway.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files from gateway edits
+*.bak.*
+
+# Session state
+sid-*.txt
+
+# Logs
+*.log
+/tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+._*

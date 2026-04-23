@@ -1,0 +1,15 @@
+[Unit]
+Description=CLAWDEE Telegram Gateway
+After=network.target
+
+[Service]
+Type=simple
+User=YOUR_USER
+WorkingDirectory=/path/to/clawdee-telegram-gateway
+ExecStart=/usr/bin/python3 /path/to/clawdee-telegram-gateway/gateway.py
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
