@@ -755,11 +755,11 @@ Three components form the complete system:
       v                                  v
 ┌─────────────────────────┐  ┌──────────────────────────────┐
 │  CLAWDEE Telegram Gateway │  │  Claude Code (interactive)   │
-│  (this repo)             │  │  claude-code-telegram plugin │
-│                          │  │  (RichardAtCT)               │
+│  (this repo)             │  │  SSH terminal / local CLI    │
+│                          │  │                              │
 │  - Autonomous agent      │  │  - Interactive coding        │
 │  - Voice + media         │  │  - Standard Claude Code CLI  │
-│  - Session management    │  │  - Telegram as terminal      │
+│  - Session management    │  │  - Direct operator control   │
 │  - HOT memory writes     │  │  - No memory writes          │
 │  - OpenViking push       │  │                              │
 │  - Real-time progress    │  │                              │
@@ -792,7 +792,6 @@ Three components form the complete system:
 | Component | Purpose | Repo |
 |-----------|---------|------|
 | **CLAWDEE Telegram Gateway** | Autonomous agent via Telegram (voice, media, sessions, memory) | [this repo](https://github.com/yalishendaa/clawdee-telegram-gateway) |
-| **claude-code-telegram** | Interactive Claude Code via Telegram (standard CLI over chat) | [RichardAtCT/claude-code-telegram](https://github.com/RichardAtCT/claude-code-telegram) |
 | **Architecture docs** | Memory system, compression, hooks, skills, subagents | [public-architecture-claude-code](https://github.com/yalishendaa/public-architecture-claude-code) |
 | **OpenViking** | Semantic memory extraction and search | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) |
 
